@@ -30,7 +30,7 @@ namespace fukusyu0614
             label1.Left += vx;
             label1.Top += vy;
 
-            if (label1.Left >=ClientSize.Width)
+            if (label1.Left >= ClientSize.Width)
             {
                 label1.Left = vx;
             }
